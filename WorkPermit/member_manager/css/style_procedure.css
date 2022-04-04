@@ -1,0 +1,87 @@
+body{
+	margin: 0;
+	padding: 0;
+	background-color: #f1f1f1;
+}
+
+a{text-decoration:none;} /*text-decoration:none; คือ มันจะไม่มีเส้นใต้ font*/
+ul li{display:inline;} /* inline คือ ให้แสดงเป็นบรรทัดเดียว*/
+li a{color: #ffffff;} /*color คือสี font*/
+li a:hover{color: #000;} /*hover คือ ตอนเอาเมาส์ไปชี้*/
+
+.Banner{
+	width: 100%; /*100% คือให้กว้างร้อยเปอร์เซ็น ไม่ว่าจอจะsizeไหนจะแสดงเต็มจอ*/
+	height:220px;
+	background-color:#fff;
+}
+.headTOP{
+	margin: 0 auto; /*เป็นการตั้งค่าให้กล่องอยู่ center*/
+	width: 1200px;
+	height: 170px;
+	background-color: #fff;
+}
+#boxleft{
+	width: 512px;
+	height: 170px;
+	float: left;
+	/*background-color: #ccc;*/
+	padding-left: 20px; /*เว้นจากขอบซ้ายเข้ามา 20*/
+}
+#login{
+	width: 300px;
+	height: 150px;
+	/*background-color: #747676;*/
+	float: right;
+	padding-top: 30px; /*เว้นจากขอบบนเข้ามา 30*/
+	padding-left: 10px; /*เว้นจากขอบซ้ายเข้ามา 10*/
+	padding-right: 10px; /*เว้นจากขอบขวาเข้ามา 10*/
+}
+#login button{
+	margin: 0 auto; /*จัดให้อยู่ทางขวา*/
+}
+#main_Nav{
+		position:absolute; /*position มันอยู่ที่กล่อง Banner*/
+	width: 100%;
+	height: 52px;
+	text-align: center; /*จัด text ให้อยู่ center*/
+	background-color: #1c65be;
+	left: 0px;
+	top: 170px;
+	padding-top: 2px;
+ 
+}
+#main_Nav2{
+	position:absolute; /*position มันอยู่ที่กล่อง Banner*/
+	width: 900px;
+	height: 60px;
+	text-align: center; /*จัด text ให้อยู่ center*/
+	background-color: #1c65be;
+}
+.container{
+	margin: 0 auto;/*เป็นการตั้งค่าให้กล่องอยู่ center*/
+	width: 1200px;
+	height: 1200px; 
+	background-color: #fff;
+}
+.Box{
+	width: 50px;
+	height: 100%;
+	float: left; /*จัดให้อยู่ทางซ้าย*/
+	background-color: #81c2ff;
+	color: #ffffff;
+}
+.content{
+	width: 1100px;
+	height:1200px;
+	float: left; /*จัดให้อยู่ทางซ้าย*/
+}
+footer{
+	margin: 0 auto; /*เป็นการตั้งค่าให้กล่องอยู่ center*/
+	width: 100%;
+	height: 40px;
+	text-align: center; /*จัด text ให้อยู่ center*/
+	padding-top: 10px; /*เว้นจากขอบบนเข้ามา 10*/
+	padding-bottom: 10px; /*เว้นจากขอบล่างเข้ามา 10*/
+	background-color: #1c65be; 
+	color: #fff; /*color คือสี font*/
+}

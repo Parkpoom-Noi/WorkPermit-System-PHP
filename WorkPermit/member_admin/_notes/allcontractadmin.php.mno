@@ -1,0 +1,4 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<info>
+	<infoitem key="UD_Recordset1" value="name:contract_admin_id;datatype:int,name:contract_admin_ordinal;datatype:blob,name:contract_admin_name;datatype:string,name:contract_admin_e_mail;datatype:string,name:contract_admin_dept;datatype:string,name:contract_admin_section;datatype:string,name:contract_admin_permit_no;datatype:int,name:contract_admin_detail;datatype:string" />
+</info>
